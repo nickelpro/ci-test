@@ -8,4 +8,5 @@ matrix:
         - sudo apt-get update
         - sudo apt-get -y install g++-10 ninja-build
       script:
-        - "${TRAVIS_BUILD_DIR}/travis/build-linux.sh"
+        - ls
+        - "./travis/build-linux.sh"
