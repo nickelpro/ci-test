@@ -5,7 +5,7 @@ matrix:
     - os: linux
       dist: focal
       before-install:
-        -sudo apt-get update
-        -sudo apt-get -y install gcc++-10 ninja-build
+        - sudo apt-get update
+        - sudo apt-get -y install gcc++-10 ninja-build
       script:
-        -"./travis/build-linux.sh"
+        - "./travis/build-linux.sh"
