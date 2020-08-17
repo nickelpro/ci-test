@@ -6,6 +6,6 @@ matrix:
       dist: focal
       before-install:
         - sudo apt-get update
-        - sudo apt-get -y install g++-10 ninja-build
+        - sudo apt-get -y install g++-10 ninja-build cmake
       script:
         - "./travis/linux-build.sh"
