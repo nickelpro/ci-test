@@ -4,9 +4,9 @@ matrix:
   include:
     - os: linux
       dist: focal
-      before-install:
-        - sudo apt-get update
-        - sudo apt-get -y install g++-10 ninja-build
-        - sudo snap install cmake --classic
+#      before-install:
+#        - sudo apt-get update
+#        - sudo apt-get -y install g++-10 ninja-build
+#        - sudo snap install cmake --classic
       script:
         - "./travis/linux-build.sh"
